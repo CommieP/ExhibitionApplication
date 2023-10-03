@@ -6,7 +6,7 @@ import VRCanvas from "../VR";
 const RoutesHOC = () => {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path = "/homepage" Component={HomePage}></Route>
                 <Route path = "/desktop" Component={Desktop}></Route>
