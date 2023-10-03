@@ -1,10 +1,12 @@
+import scene1URL from "/assets/models/scene1.gltf?url"
+
 const data = [
     {
         index: 0,
         name: "Piyush Jain",
         projectName: "1 BHK Apartment",
         imageurl: "/assets/tileImages/image0.jpeg",
-        url: "/assets/models/scene1.gltf",
+        url: scene1URL,
         sceneData: {
             cameraPosition: { x: -1.5, y: 2.4, z: 5 },
             cameraRotation: { y : -Math.PI/2 },
