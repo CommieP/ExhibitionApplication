@@ -3,7 +3,7 @@ const data = [
         index: 0,
         name: "Piyush Jain",
         projectName: "1 BHK Apartment",
-        imageurl: "./assets/image.png",
+        imageurl: "./assets/tileImages/image.png",
         url: "./assets/scene0.glb",
         sceneData: {
             cameraPosition: { x: -1.5, y: 2.4, z: 5 },
