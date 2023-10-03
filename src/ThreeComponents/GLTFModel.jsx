@@ -1,9 +1,10 @@
 import { useGLTF } from "@react-three/drei";
+import sceneurl from "/assets/models/scene1.gltf?url"
 
 const GLTFModel = ({url, rotation, position, scale }) => {
 
     console.log(rotation, position, scale);
-    const model = useGLTF(url);
+    const model = useGLTF(sceneurl);
 
     model.scene.rotation.x = rotation.x || 0;
     model.scene.rotation.y = rotation.y || 0;
