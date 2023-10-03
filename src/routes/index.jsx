@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "../HomePage";
 import Desktop from "../Desktop";
-import VR from "../VR";
+import VRCanvas from "../VR";
 
 const RoutesHOC = () => {
 
@@ -10,7 +10,7 @@ const RoutesHOC = () => {
             <Routes>
                 <Route path = "/homepage" Component={HomePage}></Route>
                 <Route path = "/desktop" Component={Desktop}></Route>
-                <Route path = "/VR" Component={VR}></Route>
+                <Route path = "/VR" Component={VRCanvas}></Route>
                 <Route exact path = "/" Component={HomePage}></Route>
             </Routes>
         </BrowserRouter>
