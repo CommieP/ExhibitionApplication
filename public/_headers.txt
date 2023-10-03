@@ -1,0 +1,2 @@
+/assets/models/*.gltf
+  Content-Type: model/gltf-binary
