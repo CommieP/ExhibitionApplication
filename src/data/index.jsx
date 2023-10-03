@@ -4,7 +4,7 @@ const data = [
         name: "Piyush Jain",
         projectName: "1 BHK Apartment",
         imageurl: "/assets/tileImages/image0.jpeg",
-        url: "/assets/models/scene0.glb",
+        url: "/assets/models/scene1.gltf",
         sceneData: {
             cameraPosition: { x: -1.5, y: 2.4, z: 5 },
             cameraRotation: { y : -Math.PI/2 },
