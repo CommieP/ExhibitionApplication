@@ -3,8 +3,8 @@ const data = [
         index: 0,
         name: "Piyush Jain",
         projectName: "1 BHK Apartment",
-        imageurl: "../../src/assets/tileImages/image.png",
-        url: "../../src/assets/models/scene0.glb",
+        imageurl: "../../public/assets/tileImages/image.png",
+        url: "../../public/assets/models/scene0.glb",
         sceneData: {
             cameraPosition: { x: -1.5, y: 2.4, z: 5 },
             cameraRotation: { y : -Math.PI/2 },
