@@ -157,7 +157,7 @@ const data = [
         name: "Sahithya S",
         projectName: "Living Room",
         imageurl: "/assets/tileImages/image13.jpeg",
-        url: "/assets/models/scene13.gltf",
+        url: "",
         sceneData: {
             cameraPosition: { x: 0.3, y: 0.4, z: 0  },
             cameraRotation: { y : 0 },
