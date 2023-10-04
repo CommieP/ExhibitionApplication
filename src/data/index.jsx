@@ -118,7 +118,7 @@ const data = [
         name: "Nihal L",
         projectName: "",
         imageurl: "",
-        url: "",
+        url: ".",
         sceneData: {
             cameraPosition: { x: 0, y: 1.4, z: 0  },
             cameraRotation: { y : 0  },

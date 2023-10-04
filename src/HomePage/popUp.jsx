@@ -24,6 +24,8 @@ const PopUp = ({handleClose}) => {
             location.assign("https://commiep.github.io/PCLinks/desk8.html");
         } else if (index == 9){
             location.assign("https://commiep.github.io/PCLinks/desk9.html");
+        } else if (index == 10){
+            location.assign("https://commiep.github.io/PCLinks/desk10.html");
         } else if (index == 11){
             location.assign("https://commiep.github.io/PCLinks/desk11.html");
         } else if (index == 12){
