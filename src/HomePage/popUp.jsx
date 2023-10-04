@@ -22,6 +22,8 @@ const PopUp = ({handleClose}) => {
             location.assign("https://commiep.github.io/PCLinks/desk5.html");
         } else if (index == 8){
             location.assign("https://commiep.github.io/PCLinks/desk8.html");
+        } else if (index == 9){
+            location.assign("https://commiep.github.io/PCLinks/desk9.html");
         } else if (index == 11){
             location.assign("https://commiep.github.io/PCLinks/desk11.html");
         } else if (index == 12){
@@ -50,6 +52,8 @@ const PopUp = ({handleClose}) => {
             location.assign("https://commiep.github.io/PCLinks/vr5.html");
         } else if (index == 8){
             location.assign("https://commiep.github.io/PCLinks/vr8.html");
+        } else if (index == 9){
+            location.assign("https://commiep.github.io/PCLinks/vr9.html");
         } else if (index == 11){
             location.assign("https://commiep.github.io/PCLinks/vr11.html");
         } else if (index == 12){

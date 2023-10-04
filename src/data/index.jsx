@@ -109,9 +109,9 @@ const data = [
     {
         index: 9,
         name: "Natansh R",
-        projectName: "shame",
+        projectName: "Spatial Portfolio",
         imageurl: "",
-        url: "",
+        url: "'",
     }, 
     {
         index: 10,
