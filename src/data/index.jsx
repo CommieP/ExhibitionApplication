@@ -116,7 +116,7 @@ const data = [
     {
         index: 10,
         name: "Nihal L",
-        projectName: "",
+        projectName: "Dojo",
         imageurl: "",
         url: ".",
         sceneData: {
