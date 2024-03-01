@@ -1,8 +1,9 @@
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import data from "../data";
 
 const PopUp = ({handleClose}) => {
-    const index = useSelector((state) => state.IndexReducer.value);
+    const selected = useSelector((state) => state.IndexReducer.value);
 
     let navigate = useNavigate();
 
@@ -11,11 +12,15 @@ const PopUp = ({handleClose}) => {
     }
 
     const handleDesktop = () => {
-        navigate("/desktop")
+        data.map((object, index) => {
+            if(object.index == selected){
+                window.location.href = object.url
+            }
+        })
     }
 
     const handleVR = () => {
-        navigate("/VRCanvas")
+       
     }
 
     return (
@@ -25,7 +30,7 @@ const PopUp = ({handleClose}) => {
                     <button className = "text-black header4 float-right hover:text-white" onClick={handleClick}>close</button>
                     <div className="header2 text-black text-center w-full mt-[15%]">Choose Device</div>
                     <div className="grid grid-cols-3 space-x-4 w-[90%] m-auto mt-8">
-                        <button className = "text-black header4 rounded-lg border-black border-2 border-solid hover:text-white hover:border-white" onClick = {handleVR}>VR</button>
+                        <button className = "text-slate-400 header4 rounded-lg border-slate-400 border-2 border-solid cursor-default">VR</button>
                         <button className = "text-black header4 rounded-lg border-black border-2 border-solid hover:text-white hover:border-white" onClick = {handleDesktop}>Desktop</button>
                         <button className = "text-slate-400 header4 rounded-lg border-slate-400 border-2 border-solid cursor-default">Mobile</button>
                     </div>

@@ -7,9 +7,7 @@ const HomePage = () => {
     const [isPopUpVisible, setIsPopUpVisible] = useState(false);
 
     const openPopup = () => {
-
         setIsPopUpVisible(true);
-        console.log(isPopUpVisible);
     };
 
 
